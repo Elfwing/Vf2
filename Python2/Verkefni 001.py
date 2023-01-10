@@ -47,3 +47,5 @@ button1 = Button(gluggi, text="Smelltu hér", width=20, command=changeLabel)
 button1.pack(side="bottom",padx=15,pady=15)
 
 gluggi.mainloop()
+
+#TEST
