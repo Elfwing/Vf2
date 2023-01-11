@@ -2,8 +2,8 @@
 handling all of our routes and rendering our views 
 and rendering our views*/
 
+//TEST
 const express = require("express");
-
 const path = require("path");
 require("colors");
 
@@ -12,6 +12,7 @@ const app = express();
 //for body parser, leyfir req body
 app.use(express.urlencoded({ extended: false }));
 
+//TEST
 //server static files
 app.use(express.static(path.join(_dirname, "public")));
 
@@ -19,6 +20,7 @@ app.use(express.static(path.join(_dirname, "public")));
 app.set("views", path.join(_dirname, "views"));
 app.set("view engine", "ejs");
 
+//TEST
 //routers
 app.get("/", (req, res) => {
   res.render("index", { title: "home" });
