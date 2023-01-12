@@ -14,10 +14,10 @@ app.use(express.urlencoded({ extended: false }));
 
 //TEST
 //server static files
-app.use(express.static(path.join(_dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")));
 
 //template engine
-app.set("views", path.join(_dirname, "views"));
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 //TEST
@@ -28,6 +28,14 @@ app.get("/", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", { title: "help" });
+});
+
+app.get("/test", (req, res) => {
+  res.render("test", { title: "test" });
+});
+
+app.get("/sael", (req, res) => {
+  res.render("sael", { title: "sael" });
 });
 
 //errors : page not found

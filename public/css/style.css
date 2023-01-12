@@ -1,0 +1,22 @@
+body {
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(https://occ-0-1165-38.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABX4Agn0VuABflsDy_XHUHvXVOBMmCvTfJP6oSAeNjLG31jRAVd3sLCU9Q9fwbRKO6RXP0qXrhaoaaM89s7pE244r0Z2Z-Fr7B7ZM.jpg?r=bac);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+}
